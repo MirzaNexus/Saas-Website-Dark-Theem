@@ -11,6 +11,15 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        xs: "480px", // Add extra small screen breakpoint
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+        "3xl": "1920px", // Custom large screen breakpoint for widescreens
+      },
     },
   },
   plugins: [],
