@@ -5,5 +5,21 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
+  /* color: rgb(0, 128, 0); */
+}
+
+@layer components {
+  .b_d {
+    @apply border border-solid border-black;
+  }
+  .b_w {
+    @apply border border-solid border-white;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center w-[115px] h-[39px] text-center text-black bg-[#FFFFFF] rounded-[10px] px-[15px]  text-base font-semibold;
+  }
+  .logo {
+    @apply w-[120px] object-contain text-[#7a7a7a] bg-gray-500;
+  }
 }
